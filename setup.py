@@ -24,7 +24,7 @@ setup(
 						"pandas",
 						"scipy",
 						"sklearn",
-						"keras"
+						"keras",
 						"numba"
 						],
 	include_package_data=True,
