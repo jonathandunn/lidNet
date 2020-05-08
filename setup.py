@@ -25,8 +25,9 @@ setup(
 						"pandas",
 						"scipy",
 						"sklearn",
-						"keras"
-						"numba"
+						"keras",
+						"numba",
+						"tensorflow"
 						],
 	include_package_data=True,
 	long_description=read('README.md'),
