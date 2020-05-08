@@ -5,7 +5,7 @@ This package supports a generalized architecture for language identification (*L
 
 To load a model:
 
-	from idNet import idNet_Enrich
+	from idNet.idNet import idNet_Enrich
 	
 	lid = idNet_Enrich("Path to model file", s3_bucket)
 	did = idNet_Enrich("Path to model file", s3_bucket)
