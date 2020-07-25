@@ -82,7 +82,7 @@ class Crawler(object):
 					train_files.append((lang, region, country, file, class_name))
 			
 		#Reduce files by threshold
-		test_files, develop_files, train_files, class_list = self.prep_work(test_files, develop_files, train_files, n_samples)
+		test_files, develop_files, train_files, class_list = self.prep_work(test_files, develop_files, train_files, threshold)
 		
 		return test_files, develop_files, train_files, class_list
 	
